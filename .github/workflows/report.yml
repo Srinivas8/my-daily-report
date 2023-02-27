@@ -3,7 +3,7 @@ name: Report
 on:
   schedule:
     - cron: "0 14 * * *"
-  workflow_dispatch:
+  
 
 env:
   MAIL_USER: ${{ secrets.MAIL_USER }}
